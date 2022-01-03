@@ -25,7 +25,3 @@ function calcular(){
     }
 }
 
-// function porcentage(percent){
-//      document.getElementById('resultado-final').innerHTML;
-//       return ((percent/ 100) * total).toFixed(2);   
-// }
