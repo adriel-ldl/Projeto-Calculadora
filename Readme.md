@@ -2,7 +2,7 @@
 
 
 
-                             Introdução
+                                                           Introdução
 
  >Então esse projeto foi desenvolvido com HTML, CSS e JS. Eu me inspirei na calculadora do meu celular Android, muitas das cores são iguais a do celular, aí troquei alguns botões de lugar, alterei os tamanhos dos botões, como por exemplo; o botão de igual e o zero. A parte da tela aonde aparece os números, aumentei a largura e altura.
 
