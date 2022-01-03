@@ -1,12 +1,13 @@
+// concatenando os numeros ao lado do outro
 function insert(num) {
     let numero = document.getElementById('resultado-final').innerHTML;
     document.getElementById('resultado-final').innerHTML = numero + num;
 }
-
+//apaga um número de cada vez
 function clean(){
     document.getElementById('resultado-final').innerHTML = "";    
 }
-
+//essa função back do botão (AC) apaga tudo 
 function back(){
     let resultado = document.getElementById('resultado-final').innerHTML;
     document.getElementById('resultado-final').innerHTML = resultado.substring(0, resultado.length -1)
