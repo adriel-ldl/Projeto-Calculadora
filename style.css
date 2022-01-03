@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: linear-gradient(to right, #00AAFF, #00FF6C);
+    color: #ffff;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgb(41, 40, 40);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(56, 55, 55);
+    color: #ffff;
+}
+
+.botao-ac {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(73, 255, 185, 0.986);
+}
+
+.botao-azul {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: darkturquoise
+}
+
+.botao-igual {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffff;
+
+}
+
+.botao:hover {
+    background: rgba(92, 92, 92, 0.9);
+}
+
+.botao-azul:hover {
+    background: rgba(0, 206, 209, 0.733);
+}
+
+.botao-igual:hover {
+    background: rgba(209, 207, 207, 0.8);
+}
+
+.botao-ac:hover {
+    background: rgba(0, 210, 130, 0.733);
+}
+
+#resultado-final {
+    width: 230px;
+    height: 110px;
+    padding: 28px 0px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    border-radius: 20px;
+    background: rgb(92, 92, 92);
+    color: #ffff;
+    text-align: right;
+}
+   
